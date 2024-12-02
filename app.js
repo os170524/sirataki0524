@@ -24,7 +24,7 @@
             } else if (colour === "黄色" && number === 0) {
                 result = "末吉";
             } else if (colour === "黄色" && number === 1) {
-                result = "小吉"    
+                result = "小吉";    
         　  } else if (colour === "黄色" && number === 2) {
                 result = "吉";
 
