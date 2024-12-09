@@ -3,8 +3,8 @@
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "ただの人"; // デフォルトの値
 
-            if (colour === "黒" && number === 0) {
-                result = "小吉";
+            if (colour === "勉強" && number === 0) {
+                result = "頭が悪い";
             } else if (colour === "黒" && number === 1) {
                 result = "中吉";
             } else if (colour === "黒" && number === 2) {
