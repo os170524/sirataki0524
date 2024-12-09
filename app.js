@@ -1,7 +1,7 @@
         function checkFortune() {
             var colour = document.getElementById('colour-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
-            var result = "小竜"; // デフォルトの値
+            var result = "ただの人"; // デフォルトの値
 
             if (colour === "黒" && number === 0) {
                 result = "小吉";
@@ -24,5 +24,5 @@
             }
                 
 
-            document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
+            document.getElementById('result-output').innerText = "あなたは【" + result + "】です";
         }
