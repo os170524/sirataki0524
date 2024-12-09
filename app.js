@@ -25,7 +25,7 @@
                 result = "末吉";
             } else if (colour === "黄色" && number === 1) {
                 result = "小吉";    
-        　  } else if (colour === "黄色" && number === 2) {
+        　  } else (colour === "黄色" && number === 2) {
                 result = "吉";
 
             document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
