@@ -21,8 +21,8 @@
                 result = "寝不足で";
             } else if (colour === "睡眠" && number === 8) {
                 result = "健康体で";
-            }
+            } 
                 
 
-            document.getElementById('result-output').innerText = "あなたは"　+ result + "す";
+            document.getElementById('result-output').innerText = （"あなたは"　+ result + "す"）;
         }
