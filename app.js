@@ -16,7 +16,7 @@ function checkFortune() {
     } else if (colour === "運動" && number === 8) {
         result = "スポーツマンで";
     } else if (colour === "睡眠" && number === 0) {
-        result = "死にま";
+        result = "睡眠障害で";
     } else if (colour === "睡眠" && number === 4) {
         result = "寝不足で";
     } else if (colour === "睡眠" && number === 8) {
