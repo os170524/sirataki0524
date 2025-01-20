@@ -27,7 +27,7 @@ function checkFortune() {
 }       
 
 
-   if (result === "ただの人" && )
+   if (result === "ただの人" && scene === )
 
 
 
