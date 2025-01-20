@@ -27,7 +27,8 @@ function checkFortune() {
 }       
 
 
-   if (result === "ただの人" && scene === )
+   if (result2 === "秀才" && scene === 受験)　{
+       
 
 
 
