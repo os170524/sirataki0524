@@ -25,3 +25,4 @@ function checkFortune() {
 
     document.getElementById('result-output').innerText = "あなたは" + result + "す";
 }       
+   
