@@ -1,4 +1,4 @@
-<script>
+
         function checkFortune() {
             var colour = document.getElementById('colour-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
@@ -42,9 +42,8 @@
 
             document.getElementById('final-output').innerText = "あなたは" + final + "！";
         }
-    </script>
-</body>
-</html>
+    
+
 
 
 
