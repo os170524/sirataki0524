@@ -29,7 +29,7 @@ function checkFortune() {
 
    if (result2 === "秀才" && scene === 受験)　{
        final = "受験に受かった";
-   }
+   } document.getElementById('final-output').innerText = "あなたは" + final;
 
 
 
