@@ -36,31 +36,40 @@
         </nav>
     </div>    
 
-    <br>
-    <label for="result2-select">結果を選択してください：</label>
-    <select id="result2-select">
-        <option value="ただの人">ただの人</option>
-        <option value="頭が悪い">頭が悪い</option>
-        <option value="頭がいい">頭がいい</option>
-        <option value="秀才">秀才</option>
-        <option value="運動不足">運動不足</option>
-        <option value="動ける身体を持っている">動ける身体を持っている</option>
-        <option value="スポーツマン">スポーツマン</option>
-        <option value="睡眠障害">睡眠障害</option>
-        <option value="寝不足">寝不足</option>
-        <option value="健康体">健康体</option>
-    </select>
+    <script src="app.js"></script>
+    
 
+    
+    <p>どんな結果になりましたか？</p>
+    <p>でた結果をもとに次に進もう！</p>
+    <div>
     <br>
-    <label for="scene-select">場面を選んだください：</label>
-    <select id="scene-select">
-        <option value="受験">受験</option>
-        <option value="体育">体育</option>
-        <option value="休憩">休憩</option>
-    </select>
-    <button onclick="checkFinalResult()">最終結果は……？</button>
-    <p id="final-output"></p>
-     
+        <label for="result2-select">結果を選択してください：</label>
+        <select id="result2-select">
+            <option value="ただの人">ただの人</option>
+            <option value="頭が悪い">頭が悪い</option>
+            <option value="頭がいい">頭がいい</option>
+            <option value="秀才">秀才</option>
+            <option value="運動不足">運動不足</option>
+            <option value="動ける身体を持っている">動ける身体を持っている</option>
+            <option value="スポーツマン">スポーツマン</option>
+            <option value="睡眠障害">睡眠障害</option>
+            <option value="寝不足">寝不足</option>
+            <option value="健康体">健康体</option>
+            
+        </select>
+
+     <br>
+        <label for="scene-select">場面を選んだください：</label>
+        <select id="scene-select">
+            <option value="受験">受験</option>
+            <option value="体育">体育</option>
+            <option value="休憩">休憩</option>
+              
+        </select>
+         <button onclick="checkFortune()">結果は……？</button>
+        <p id="result-output"></p>
+       
 
     
         
