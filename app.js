@@ -95,7 +95,7 @@ function checkFinalResult() {
         final = "体を休めた";
     }
 
-    document.getElementById('final-output').innerText = "あなたは" + final + "！";
+    document.getElementById('final-output').innerText = "あなたは" + final + "。";
 }
 
 
