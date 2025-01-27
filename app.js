@@ -24,7 +24,7 @@
         result = "健康体で";
     }
 
-    document.getElementById('result-output').innerText = "あなたは" + result + "す";
+    document.getElementById('result-output').innerText = "あなたは" + result + "す。";
 }
 
 function checkFinalResult() {
